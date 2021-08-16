@@ -1,4 +1,4 @@
-//premade post examples
+//premade examples
 
 const { Post } = require('../models');
 

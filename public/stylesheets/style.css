@@ -1,9 +1,9 @@
 :root {
     --primary: #ccdad1;
     --secondary: #dce9d5;
-    --tertiary: #788585;
-    --light-dark: #a1a0a1;
-    --dark: #201110;
+    --tertiary: #cacaca;
+    --light-dark: #fffeff;
+    --dark: #382523;
     --border-radius: .3rem;
 }
 
@@ -63,15 +63,15 @@ p {
     display: block;
     margin: 5px 0;
     border-radius: var(--border-radius);
-    color: white;
+    color: #382523;
     border: none;
     outline: none;
-    background-color: var(--light-dark);
+    background-color: lightgray;
     transform: translate(-1px, -1px);
 }
 
 .btn:hover {
-    color: var(--primary);
+    color: lightgray;
     background-color: var(--tertiary);
     transform: translate(0, 0);
     box-shadow: 2px 2px var(--dark);
